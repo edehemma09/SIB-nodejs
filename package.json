@@ -1,7 +1,7 @@
 {
-  "name": "SIBmail",
+  "name": "mail-yt",
   "version": "1.0.0",
-  "description": "Testing environment for Send-in-Blue",
+  "description": "Testing environment using SendinBlue",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
