@@ -26,16 +26,19 @@ transactionalEmailApi.sendTransacEmail({
 		subject: 'Subscribe to PMT Tech Coding Class to become a developer',
 		sender,
 		to: receivers,
-		textContent: 
+		// textContent: 
 
-		`PMT Tech Coding will teach you how to become a developer with Mentorship exclusive.`,
-		// htmlContent: `
+		// `PMT Tech Coding will teach you how to become a developer with Mentorship exclusive.`,
+		htmlContent: 
 		// 	<h1>Become a {{params.role}} developer</h1>
 		// 	<a href='#'>PMT TEch Coding</a>
 		// `,
 		// params: {
 		// 	role: 'frontend',
 		// },
+		app.get("/",(req,res)=> {
+			res.sendFile(__dirname + "/index.html");
+		})
 	})
 	.then(console.log)
 	.catch(console.log)
