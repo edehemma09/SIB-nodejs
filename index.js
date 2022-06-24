@@ -8,7 +8,7 @@ const apiKey = client.authentications['api-key']
 apiKey.apiKey = process.env.API_KEY
 
 const sender = {
-	name: 'James Derrick',
+	name: 'Emmanuel Edeh',
 	email: 'jamder534@gmail.com',
 	// name: 'James Derrick',
 }
