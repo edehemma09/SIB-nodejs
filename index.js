@@ -15,7 +15,7 @@ const sender = {
 
 const receivers = [
 	{
-		email: 'edehemmanuelebubechukwu@yahoo.com',
+		email: 'tkodit@gmail.com',
 		// Client Email
 	},
 ]
