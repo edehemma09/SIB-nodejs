@@ -1,3 +1,4 @@
+//This is the api call to the SIB(Send in blue) server
 const Sib = require('sib-api-v3-sdk')
 
 require('dotenv').config()
@@ -11,12 +12,13 @@ const sender = {
 	name: 'Emmanuel Edeh',
 	email: 'jamder534@gmail.com',
 	// name: 'James Derrick',
+	//Sender mail
 }
 
 const receivers = [
 	{
-		email: 'tkodit@gmail.com',
-		// Client Email
+		email: 'winnersheila@gmail.com',
+		// Client Email differentiated using a comma
 	},
 ]
 
